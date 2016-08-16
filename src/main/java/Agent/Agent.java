@@ -34,7 +34,7 @@ public class Agent{
         this.cold = 0.0;
         this.heat = 0.0;
         this.fear = 25.0;
-        this.image = "\uD83D\uDEB9";
+        this.image = " \uD83D\uDEB9 ";
     }
     public Agent(int ii, int jj) {
         this.i = ii;
@@ -46,7 +46,7 @@ public class Agent{
         this.cold = 0.0;
         this.heat = 0.0;
         this.fear = 25.0;
-        this.image = "\uD83D\uDEB9";
+        this.image = " \uD83D\uDEB9 ";
     }
 
     /**

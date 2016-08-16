@@ -74,12 +74,12 @@ class Star extends SkySquare {
  */
 class Sun extends SkySquare{
     static final String SUN_CLOUD = " ⛅ ";
-    static final String SUN_CLOUD_RAIN = " 🌦 ";
-    static final String SUN_MOUNTAIN = " 🌄 ";
+    static final String SUN_CLOUD_RAIN = " 🌦";
+    static final String SUN_MOUNTAIN = " \uD83C\uDF04 ";
     static final String SUN_HILL = " 🌅 ";
     static final String SUN_1 = " ☼ ";
     static final String SUN_2 = " ☀ ";
-    static final String RAINBOW = " 🌈 ";
+    static final String RAINBOW = " \uD83C\uDF08 ";
     static final String [] IMAGES = { SUN_CLOUD, SUN_CLOUD_RAIN, SUN_MOUNTAIN, SUN_HILL, SUN_1, SUN_2, RAINBOW };
     static final int NUM_IMAGES = IMAGES.length;
 
@@ -164,8 +164,8 @@ class CastleSquare extends NonWalkable{
  */
 class MountainSquare extends NonWalkable{
     static final String MOUNTAIN_1 = " ⛰ ";
-    static final String MOUNTAIN_2 = " 🏔 ";
-    static final String MOUNTAIN_3 = " 🌋 ";
+    static final String MOUNTAIN_2 = " ? ";
+    static final String MOUNTAIN_3 = " ? ";
     static final String [] IMAGES = { MOUNTAIN_1, MOUNTAIN_2, MOUNTAIN_3 };
     static final int NUM_IMAGES = IMAGES.length;
 

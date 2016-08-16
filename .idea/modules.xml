@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Voice.iml" filepath="$PROJECT_DIR$/Voice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VoiceJava.iml" filepath="$PROJECT_DIR$/VoiceJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libvoice/libvoice.iml" filepath="$PROJECT_DIR$/libvoice/libvoice.iml" />
     </modules>
   </component>
 </project>

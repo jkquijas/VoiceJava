@@ -49,7 +49,7 @@ class Road extends Walkable {
 class GroundSquare extends Walkable {
 
 
-    static final String[] IMAGES = {" ☙ ", " 🌱 ", " 🌾 ", " 🌿 ", " ☘ ", " 🍀 ", " 🍁 ", " 🍂 "};
+    static final String[] IMAGES = {" ☙ ", " \uD83C\uDF31 ", " \uD83C\uDF3E ", " \uD83C\uDF3F ", " ☘ ", " \uD83C\uDF40 ", " \uD83C\uDF41 ", " \uD83C\uDF42 "};
     static final int NUM_IMAGES = IMAGES.length;
 
     public GroundSquare(int ii, int jj) {
@@ -154,7 +154,7 @@ class FaithItem extends Item{
 class Food extends Item{
 
     //	Fruits
-    static final String APPLE_RED   = " 🍎 ";
+    static final String APPLE_RED   = " \uD83C\uDF4E ";//🚹
     static final String APPLE_GREEN = " 🍏 ";
     static final String TOMATO      = " 🍅 ";
     static final String TANGERINE   = " 🍊 ";

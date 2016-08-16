@@ -7,16 +7,16 @@ import java.util.Random;
  */
 public class ColorManager{
     private static Random rnd = new Random();
-    static final String ANSI_COLOR_WHITE = "\\e[1; 37m";
-    static final String ANSI_COLOR_BLACK = "\\e[0;30m";
-    static final String ANSI_COLOR_RED = "\\x1b[31m";
-    static final String ANSI_COLOR_GREEN = "\\x1b[32m";
-    static final String ANSI_COLOR_YELLOW = "\\x1b[33m";
-    static final String ANSI_COLOR_BLUE = "\\x1b[34m";
-    static final String ANSI_COLOR_MAGENTA = "\\x1b[35m";
-    static final String ANSI_COLOR_CYAN = "\\x1b[36m";
-    static final String ANSI_COLOR_DARK_GRAY = "\\e[1;30m";
-    static final String ANSI_COLOR_RESET = "\\x1b[0m";
+    static final String ANSI_COLOR_WHITE = "\u001B[37m";
+    static final String ANSI_COLOR_BLACK = "\u001B[30m";
+    static final String ANSI_COLOR_RED = "\u001B[31m";
+    public static final String ANSI_COLOR_GREEN = "\u001B[32m";
+    static final String ANSI_COLOR_YELLOW = "\u001B[33m";
+    static final String ANSI_COLOR_BLUE = "\u001B[34m";
+    static final String ANSI_COLOR_MAGENTA = "\u001B[35m";
+    static final String ANSI_COLOR_CYAN = "\u001B[36m";
+    public static final String ANSI_COLOR_DARK_GRAY = "\u001B[1;30m";
+    static final String ANSI_COLOR_RESET = "\u001B[0m";
     static final String [] COLORS = { ANSI_COLOR_WHITE, ANSI_COLOR_BLACK, ANSI_COLOR_RED, ANSI_COLOR_GREEN, ANSI_COLOR_YELLOW,
             ANSI_COLOR_BLUE, ANSI_COLOR_MAGENTA, ANSI_COLOR_CYAN, ANSI_COLOR_DARK_GRAY };
 
